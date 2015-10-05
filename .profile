@@ -19,7 +19,7 @@ else
 fi
 
 # Use local bin before
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH
 if [ -d ~/bin ] ; then
     PATH=~/bin:/usr/local/share/npm/bin:"${PATH}"
 fi
