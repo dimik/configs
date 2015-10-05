@@ -35,6 +35,9 @@ let NERDTreeShowHidden = 1
 "set autochdir
 let g:NERDTreeChDirMode=2
 
+"Allow JSX in normal JS files
+let g:jsx_ext_required = 0
+
 " Common
 syntax on
 filetype plugin on
