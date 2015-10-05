@@ -68,9 +68,9 @@ set autoindent                      " inherit indent from previous line
 "set smartindent
 set formatoptions-=o                " dont continue comments when pushing o/O
 set expandtab                       " convert tab to spaces
-set shiftwidth=4                    " size of tab char in spaces
-set softtabstop=4
-set tabstop=4
+set shiftwidth=2                    " size of tab char in spaces
+set softtabstop=2
+set tabstop=2
 set backspace=indent,eol,start      " allow to use backspace instead of "x"
 set fo+=cr                          " fix <Enter> for comment
 autocmd BufWritePre * :%s/\s\+$//e  " Delete spaces from end on lines
