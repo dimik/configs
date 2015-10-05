@@ -23,6 +23,7 @@ export PATH=/usr/local/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH
 if [ -d ~/bin ] ; then
     PATH=~/bin:/usr/local/share/npm/bin:"${PATH}"
 fi
+export NODE_PATH=/opt/local/lib/node_modules
 
 . ~/.configs/.bash/git-completion.bash
 . ~/.configs/.bash/git-flow-completion.bash
